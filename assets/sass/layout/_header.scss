@@ -1,0 +1,49 @@
+.header {
+  width: 100vw;
+  background: $transparent;
+  text-decoration: none;
+  border-bottom: 1px solid $quick-silver;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+
+  &__list {
+    list-style: none;
+    text-decoration: none;
+    font-family: $raleway;
+    padding-right: 50px;
+
+    @include mobile-view {
+      padding: 0 15px;
+    }
+  }
+  &__list-item {
+    display: inline;
+    @include laptop-view {
+      display: block;
+      align-content: center;
+      padding-right: 50px;
+    }
+
+    & a {
+      text-decoration: none;
+      color: $white;
+      padding: 5px;
+    }
+  }
+  &__logo {
+    font-family: $old-standard-TT;
+    font-weight: $old-standard-TT-bold;
+    font-size: $xx-large;
+    color: $white;
+    padding: 20px 50px;
+    align-items: center;
+    @include mobile-view {
+      padding: 20px 15px;
+    }
+    @include laptop-view {
+      padding: 20px 50px;
+    }
+  }
+}

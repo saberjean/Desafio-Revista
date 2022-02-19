@@ -1,0 +1,168 @@
+body {
+  background: seashell;
+  background-color: $quick-silver;
+}
+.content {
+  padding-top: 120px;
+ border: 0 20px 0 20px;
+ background-color: $quick-silver;
+}
+
+.new {
+  margin: 0 30px;
+
+  &__body {
+    text-align: center;
+
+    &--img {
+      width: 310px;
+      height: 370px;
+      text-align: center;
+    }
+    &--parragraph {
+      font-family: $raleway;
+      font-weight: $raleway-regular;
+      font-size: $medium;
+      text-align: justify;
+      margin: 10px 10px;
+    }
+  }
+  &__header {
+    &--title {
+      font-family: $old-standard-TT;
+      font-weight: $old-standard-TT-bold;
+      text-align: left;
+    }
+  }
+}
+
+.featured {
+  &--img {
+    width: 290px;
+    text-align: center;
+  }
+  &--text {
+    font-family: $raleway;
+    font-weight: $raleway-bold;
+    font-size: $medium;
+    text-align: left;
+    padding: 0 50px;
+  }
+}
+
+.list-right {
+  background: $isabelline;
+  border: 1px solid $transparent;
+  margin: 0 50px 10px 0;
+  padding-bottom: 15px;
+  &__featured {
+    &--item {
+      text-align: center;
+    }
+    &--title {
+      padding: 0 50px;
+    }
+  }
+  &__header {
+    &--parragraph {
+      font-family: $raleway;
+      font-weight: $raleway-regular;
+      font-size: $medium;
+      text-align: justify;
+      padding: 0 50px;
+    }
+    &--title {
+      font-family: $old-standard-TT;
+      font-weight: $old-standard-TT-bold;
+      padding: 0 50px;
+    }
+  }
+  &__tags {
+    padding: 0 50px;
+    text-align: center;
+
+    &--title {
+      padding-bottom: 10px;
+      text-align: left;
+    }
+  }
+}
+.tags {
+  &__item {
+    &--list {
+      display: inline;
+      font-family: $raleway;
+      font-weight: $raleway-regular;
+      font-size: $small;
+      background: $granite-gray;
+      margin-top: 10px;
+      width: 60px;
+      list-style: none;
+      padding: 5px;
+      color: $white;
+    }
+  }
+}
+
+.newsletter {
+  background: $granite-gray;
+  text-align: center;
+  align-items: center;
+  color: $white;
+  padding: 30px 0;
+
+  &__group--button {
+    background-color: $smoky-black;
+    color: $white;
+    @include mobile-view {
+      margin-bottom: 20px;
+    }
+  }
+  &__parragraph {
+    font-family: $raleway;
+    font-weight: $raleway-bold;
+    font-size: $medium;
+    @include mobile-view {
+      font-size: $x-small;
+      padding: 0 20px;
+    }
+  }
+  &__text {
+    font-family: $old-standard-TT;
+    font-weight: $old-standard-TT-bold;
+    font-size: $xx-large;
+    @include mobile-view {
+      font-size: $xx-large;
+      padding: 0 20px;
+    }
+  }
+}
+
+@include mobile-view {
+  .list-right {
+    display: none;
+  }
+}
+
+@include laptop-view {
+  .list-right {
+    display: block;
+  }
+}
+
+@include mobile-view {
+  #us {
+    display: none;
+  }
+}
+@include laptop-view {
+  #us {
+    display: block;
+  }
+}
+
+@include mobile-view {
+  .input-menu {
+    width: 70px;
+  }
+}

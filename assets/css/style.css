@@ -1,0 +1,435 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  background-color: #A6A5A8;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.col-xs-12 {
+  grid-column: span 12;
+}
+
+.col-xs-11 {
+  grid-column: span 11;
+}
+
+.col-xs-10 {
+  grid-column: span 10;
+}
+
+.col-xs-9 {
+  grid-column: span 9;
+}
+
+.col-xs-8 {
+  grid-column: span 8;
+}
+
+.col-xs-7 {
+  grid-column: span 7;
+}
+
+.col-xs-6 {
+  grid-column: span 6;
+}
+
+.col-xs-5 {
+  grid-column: span 5;
+}
+
+.col-xs-4 {
+  grid-column: span 4;
+}
+
+.col-xs-3 {
+  grid-column: span 3;
+}
+
+.col-xs-2 {
+  grid-column: span 2;
+}
+
+.col-xs-1 {
+  grid-column: span 1;
+}
+
+/* Cols */
+@media (min-width: 0px) {
+  .col-sm-12 {
+    grid-column: span 12;
+  }
+
+  .col-sm-11 {
+    grid-column: span 11;
+  }
+
+  .col-sm-10 {
+    grid-column: span 10;
+  }
+
+  .col-sm-9 {
+    grid-column: span 9;
+  }
+
+  .col-sm-8 {
+    grid-column: span 8;
+  }
+
+  .col-sm-7 {
+    grid-column: span 7;
+  }
+
+  .col-sm-6 {
+    grid-column: span 6;
+  }
+
+  .col-sm-5 {
+    grid-column: span 5;
+  }
+
+  .col-sm-4 {
+    grid-column: span 4;
+  }
+
+  .col-sm-3 {
+    grid-column: span 3;
+  }
+
+  .col-sm-2 {
+    grid-column: span 2;
+  }
+
+  .col-sm-1 {
+    grid-column: span 1;
+  }
+}
+@media (min-width: 820px) {
+  .col-md-12 {
+    grid-column: span 12;
+  }
+
+  .col-md-11 {
+    grid-column: span 11;
+  }
+
+  .col-md-10 {
+    grid-column: span 10;
+  }
+
+  .col-md-9 {
+    grid-column: span 9;
+  }
+
+  .col-md-8 {
+    grid-column: span 8;
+  }
+
+  .col-md-7 {
+    grid-column: span 7;
+  }
+
+  .col-md-6 {
+    grid-column: span 6;
+  }
+
+  .col-md-5 {
+    grid-column: span 5;
+  }
+
+  .col-md-4 {
+    grid-column: span 4;
+  }
+
+  .col-md-3 {
+    grid-column: span 3;
+  }
+
+  .col-md-2 {
+    grid-column: span 2;
+  }
+
+  .col-md-1 {
+    grid-column: span 1;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-12 {
+    grid-column: span 12;
+  }
+
+  .col-lg-11 {
+    grid-column: span 11;
+  }
+
+  .col-lg-10 {
+    grid-column: span 10;
+  }
+
+  .col-lg-9 {
+    grid-column: span 9;
+  }
+
+  .col-lg-8 {
+    grid-column: span 8;
+  }
+
+  .col-lg-7 {
+    grid-column: span 7;
+  }
+
+  .col-lg-6 {
+    grid-column: span 6;
+  }
+
+  .col-lg-5 {
+    grid-column: span 5;
+  }
+
+  .col-lg-4 {
+    grid-column: span 4;
+  }
+
+  .col-lg-3 {
+    grid-column: span 3;
+  }
+
+  .col-lg-2 {
+    grid-column: span 2;
+  }
+
+  .col-lg-1 {
+    grid-column: span 1;
+  }
+}
+.header {
+  width: 100vw;
+  background: #744a4a;
+  text-decoration: none;
+  border-bottom: 1px solid #A6A5A8;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+}
+.header__list {
+  list-style: none;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  padding-right: 50px;
+}
+@media (min-width: 0px) {
+  .header__list {
+    padding: 0 15px;
+  }
+}
+.header__list-item {
+  display: inline;
+}
+@media (min-width: 1024px) {
+  .header__list-item {
+    display: block;
+    align-content: center;
+    padding-right: 50px;
+  }
+}
+.header__list-item a {
+  text-decoration: none;
+  color: #FFF;
+  padding: 5px;
+}
+.header__logo {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #FFF;
+  padding: 20px 50px;
+  align-items: center;
+}
+@media (min-width: 0px) {
+  .header__logo {
+    padding: 20px 15px;
+  }
+}
+@media (min-width: 1024px) {
+  .header__logo {
+    padding: 20px 50px;
+  }
+}
+
+body {
+  background: seashell;
+  background-color: #A6A5A8;
+}
+
+.content {
+  padding-top: 120px;
+  border: 0 20px 0 20px;
+  background-color: #A6A5A8;
+}
+
+.new {
+  margin: 0 30px;
+}
+.new__body {
+  text-align: center;
+}
+.new__body--img {
+  width: 310px;
+  height: 370px;
+  text-align: center;
+}
+.new__body--parragraph {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: justify;
+  margin: 10px 10px;
+}
+.new__header--title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  text-align: left;
+}
+
+.featured--img {
+  width: 290px;
+  text-align: center;
+}
+.featured--text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: left;
+  padding: 0 50px;
+}
+
+.list-right {
+  background: #ECECEC;
+  border: 1px solid #744a4a;
+  margin: 0 50px 10px 0;
+  padding-bottom: 15px;
+}
+.list-right__featured--item {
+  text-align: center;
+}
+.list-right__featured--title {
+  padding: 0 50px;
+}
+.list-right__header--parragraph {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: justify;
+  padding: 0 50px;
+}
+.list-right__header--title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  padding: 0 50px;
+}
+.list-right__tags {
+  padding: 0 50px;
+  text-align: center;
+}
+.list-right__tags--title {
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.tags__item--list {
+  display: inline;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  background: #39383a;
+  margin-top: 10px;
+  width: 60px;
+  list-style: none;
+  padding: 5px;
+  color: #FFF;
+}
+
+.newsletter {
+  background: #39383a;
+  text-align: center;
+  align-items: center;
+  color: #FFF;
+  padding: 30px 0;
+}
+.newsletter__group--button {
+  background-color: #0C0910;
+  color: #FFF;
+}
+@media (min-width: 0px) {
+  .newsletter__group--button {
+    margin-bottom: 20px;
+  }
+}
+.newsletter__parragraph {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+@media (min-width: 0px) {
+  .newsletter__parragraph {
+    font-size: 12px;
+    padding: 0 20px;
+  }
+}
+.newsletter__text {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+@media (min-width: 0px) {
+  .newsletter__text {
+    font-size: 30px;
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 0px) {
+  .list-right {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .list-right {
+    display: block;
+  }
+}
+@media (min-width: 0px) {
+  #us {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #us {
+    display: block;
+  }
+}
+@media (min-width: 0px) {
+  .input-menu {
+    width: 70px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
